@@ -1,0 +1,7 @@
+7767517
+4 4
+Input                    data                     0 1 data -23330=4,1,7,2,1 0=1 1=2 2=1
+InnerProduct             layer1                   1 1 data layer2 -23330=4,1,1,2,1 0=1 1=2 2=37748736 9=1
+InnerProduct             layer2                   1 1 layer2 layer3 -23330=4,1,1,2,1 0=1 1=2 2=16777216 9=1
+InnerProduct             layer3                   1 1 layer3 prob -23330=4,1,1,2,1 0=1 1=2 2=4096000
+Softmax                  prob                     1 1 prob output -23330=4,1,1,2,1
